@@ -55,7 +55,10 @@ comand prompt now ends with
 2.2)  ![#1589F0](https://via.placeholder.com/15/FFC000/000000?text=+) cd pokt-validator-configurator
 ```diff
 +        (( command prompt ends with :~/pokt-validator-configurator$ ))
-```        
+```
+2.2.1)  ![#1589F0](https://via.placeholder.com/15/FFC000/000000?text=+) chmod 755 ./*.sh  
+(( no output generated ))  
+
 2.3)  ![#1589F0](https://via.placeholder.com/15/FFC000/000000?text=+) ./dependencyinstaller.sh
 ```diff
 +[sudo] password for nodeuser:
