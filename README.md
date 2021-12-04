@@ -56,7 +56,9 @@ cp ~/pokt-validator-configurator/install.sh ~ && ~/install.sh
 > NGINX IS RESTARTED! CONFIGURATION COMPLETE
 
 ### Step 6: Create Pocket Account and Sync the Node
-```pocket accounts create```
+```
+pocket accounts create
+```
 
 >Close the session and login again as the nodeuser
 
