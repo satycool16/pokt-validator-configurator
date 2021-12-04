@@ -16,7 +16,7 @@ ssh -i "your_private.pem" ubuntu@ec2-1-2-3-4.compute-1.amazonaws.com
 ```
 ### Step 2: create user
 ```
-git clone https://github.com/satycool16/pokt-validator-configurator.git && cd pokt-validator-configurator && chmod 755 ./*.sh && ./makeuser.sh
+git clone https://github.com/satycool16/pokt-validator-configurator.git && cd pokt-validator-configurator && chmod 755 ./*.sh && sudo ./makeuser.sh
 ```
 >Session starts with the username just created, we need to clone the repo again.
 ### Step 3: Install Dependencies
